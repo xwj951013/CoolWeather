@@ -1,3 +1,5 @@
+import com.android.aaptcompiler.extractResourceName
+
 plugins {
     id("com.android.application")
 }
@@ -36,6 +38,7 @@ android {
             }
         }
     }
+
 }
 
 
